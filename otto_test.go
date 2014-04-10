@@ -2,7 +2,7 @@ package otto
 
 import (
 	. "./terst"
-	"github.com/robertkrimen/otto/underscore"
+	"github.com/fabware/otto/underscore"
 	"math"
 	"strings"
 	"testing"

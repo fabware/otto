@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/robertkrimen/otto"
-	"github.com/robertkrimen/otto/underscore"
+	"github.com/fabware/otto"
+	"github.com/fabware/otto/underscore"
 	"io/ioutil"
 	"os"
 )

@@ -1,10 +1,10 @@
 # otto
 --
-    import "github.com/robertkrimen/otto"
+    import "github.com/fabware/otto"
 
 Package otto is a JavaScript parser and interpreter written natively in Go.
 
-http://godoc.org/github.com/robertkrimen/otto
+http://godoc.org/github.com/fabware/otto
 
     // Create a new runtime
     Otto := otto.New()
@@ -67,9 +67,9 @@ Embedding a Go function in JavaScript:
     `)
 
 You can run (Go) JavaScript from the commandline with:
-http://github.com/robertkrimen/otto/tree/master/otto
+http://github.com/fabware/otto/tree/master/otto
 
-    $ go get -v github.com/robertkrimen/otto/otto
+    $ go get -v github.com/fabware/otto/otto
 
 Run JavaScript by entering some source on stdin or by giving otto a filename:
 
@@ -79,13 +79,13 @@ Optionally include the JavaScript utility-belt library, underscore, with this
 import:
 
     import (
-    	"github.com/robertkrimen/otto"
-    	_ "github.com/robertkrimen/otto/underscore"
+    	"github.com/fabware/otto"
+    	_ "github.com/fabware/otto/underscore"
     )
 
     // Now every otto runtime will come loaded with underscore
 
-For more information: http://github.com/robertkrimen/otto/tree/master/underscore
+For more information: http://github.com/fabware/otto/tree/master/underscore
 
 ### Caveat Emptor
 
@@ -125,7 +125,7 @@ the interrupt channel to do this:
     import (
         "errors"
         "fmt"
-        Otto "github.com/robertkrimen/otto"
+        Otto "github.com/fabware/otto"
         "os"
         Time "time"
     )

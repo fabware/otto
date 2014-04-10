@@ -10,7 +10,7 @@ TEST := -v --run Test\($(subst $(eval) ,\|,$(TESTS))\)
 TEST := .
 
 CHECK_GO := GOROOT= GOPATH=$(PWD)/.test/check/:$(GOPATH) $(HOME)/go/release/bin/go
-CHECK_OTTO := $(PWD)/.test/check/src/github.com/robertkrimen/otto
+CHECK_OTTO := $(PWD)/.test/check/src/github.com/fabware/otto
 
 test: inline.go
 	go test -i
